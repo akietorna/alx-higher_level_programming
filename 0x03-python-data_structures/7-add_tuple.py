@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def add_tuple(tuple_a = (), tuple_b = ()):
+def add_tuple(tuple_a=(), tuple_b=()):
     if tuple_a == () and tuple_b == ():
         return (0, 0)
     elif tuple_a == ():
