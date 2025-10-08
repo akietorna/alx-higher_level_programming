@@ -4,7 +4,7 @@
 
 /**
  *is_palindrome)= - checks if a linked list is a palindrome
- *head: pointer to the linked list
+ *@head: pointer to the linked list
  *Return: 0-false, 1-true
  */
 
@@ -15,7 +15,7 @@ int is_palindrome(listint_t **head)
 	int c = 0;
 	listint_t *end;
 
-	if (*head == NULL)
+	if (*head == NULL || head == NULL)
 	{
 		return (1);
 	}
@@ -43,6 +43,7 @@ int is_palindrome(listint_t **head)
 	{
 		if (a[c] != a[b])
 		{
+			free(a)
 			return (0);
 		}
 		c++;
