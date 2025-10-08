@@ -43,7 +43,7 @@ int is_palindrome(listint_t **head)
 	{
 		if (a[c] != a[b])
 		{
-			free(a)
+			free(a);
 			return (0);
 		}
 		c++;
