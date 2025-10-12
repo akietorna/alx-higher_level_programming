@@ -3,7 +3,7 @@ def best_score(a_dictionary):
     big = 0
     if a_dictionary == ({} or None):
         return None
-    for a, b in  a_dictionary.items():
+    for a, b in a_dictionary.items():
         if b > big:
             big = b
     for a, b in a_dictionary.items():
