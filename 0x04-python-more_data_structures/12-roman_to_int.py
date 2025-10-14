@@ -2,7 +2,7 @@
 def roman_to_int(roman_string):
     num = 0
     i = 0
-    if roman_string is None and isinstance(roman_string, str):
+    if roman_string == None and not isinstance(roman_string, str):
         return 0
     while i < len(roman_string):
         if roman_string[i] == "M":
